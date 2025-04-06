@@ -1,0 +1,25 @@
+{
+    "type": "HYBRID_MOBILE_BASE",
+    "body_parts": {
+        "arms": {
+            "right": {
+                "type": "JOINT_POSITION", 
+                "input_type": "absolute",
+                "interpolation": null,
+                "gripper": {
+                    "type": "GRIP"
+                }
+            }
+        },
+        "torso": {
+            "type": "JOINT_POSITION", 
+            "input_type": "absolute",
+            "interpolation": null,
+            "kp": 2000
+        },
+        "base": {
+            "type": "JOINT_VELOCITY",
+            "interpolation": null
+        }
+    }
+}
